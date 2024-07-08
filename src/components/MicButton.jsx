@@ -3,7 +3,7 @@ import React, { useEffect, useState, useCallback } from "react";
 import { IconButton } from '@mui/material';
 import MicIcon from '@mui/icons-material/Mic';
 import Lottie from 'react-lottie';
-import useCustomWhisper from "../services/OpenAI";
+import OpenAI from "../services/OpenAI";
 
 import speakingAnimation from '../assets/animations/speaking.json';
 import recordingAnimation from '../assets/animations/recording.json';
@@ -12,7 +12,7 @@ import loadingAnimation from '../assets/animations/loading.json';
 const MicButton = () => {
     const apiKey = localStorage.getItem("openAiKey");
 
-    const { recording, transcribing, transcript, response, startRecording, stopRecording, mode, audioRef } = useCustomWhisper(apiKey);
+    const { recording, transcribing, transcript, response, startRecording, stopRecording, mode, audioRef } = OpenAI(apiKey);
 
     const handleClick = useCallback(() => {
         if (mode === "speaking") {

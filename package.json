@@ -3,8 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@alan-ai/alan-sdk-web": "^1.8.42",
-    "@chengsokdara/use-whisper": "^0.2.0",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@ffmpeg/core": "^0.11.0",
