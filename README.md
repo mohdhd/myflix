@@ -1,12 +1,10 @@
-Here's the improved README:
 
-# MYFLIX - Mohdhd
 
 ## About the Project
 
 ![MYFLIX](readme_img/1.png)
 
-MYFLIX is a modern movie browsing and management application with the following features:
+MYFLIX is a movie browsing and management application with the following features:
 
 - **User Authentication**
 - **Light and Dark Mode**
@@ -18,13 +16,13 @@ MYFLIX is a modern movie browsing and management application with the following 
 
 To experience the AI Copilot, click on the purple mic icon at the bottom right of the page or press the SPACE key for a shortcut!
 
-### AI Copilot Features:
+### What it can do?
 
 - Engages in full conversations and understands voice commands
 - Remembers up to 15 messages in the current conversation (resets on page refresh)
-- Redirects you to genres or pages based on the conversation context
+- Redirects you to genres or movie pages based on the conversation context
 - Understands and answers questions about the movies displayed on the page
-- Provides a full-fledged voice assistant experience with access to movie data
+- Anything you can think of doing with an AI assistant with movies data!
 
 ## Getting Started
 
@@ -61,9 +59,6 @@ npm install npm@latest -g
 4. **Enter API Keys**:
    - Enter your TMDB and OpenAI API keys once the app is launched.
 
-## Usage
-
-For detailed information on TMDB API calls, please refer to the [TMDB Documentation](https://developers.themoviedb.org/3/getting-started/introduction).
 
 ## Contributing
 
