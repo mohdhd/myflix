@@ -4,6 +4,9 @@
 
 ![MYFLIX](readme_img/1.png)
 
+
+[View Demo](https://stellular-frangipane-679962.netlify.app/)
+
 MYFLIX is a movie browsing and management application with the following features:
 
 - **User Authentication**
